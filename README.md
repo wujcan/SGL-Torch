@@ -1,5 +1,5 @@
 # SGL-Torch
-This is the PyTorch implementation for our SIGIR 2021 paper. We also provide Tensorflow implementation for SGL: https://github.com/wujcan/SGL.
+This is the PyTorch implementation for our SIGIR 2021 paper. We also provide Tensorflow implementation for SGL: https://github.com/wujcan/SGL-TensorFlow.
 
 >Jiancan Wu, Xiang Wang, Fuli Feng, Xiangnan He, Liang Chen, Jianxun Lian,and Xing Xie. 2021. Self-supervised Graph Learning for Recommendation, [Paper in arXiv](https://arxiv.org/abs/2010.10783).
 
