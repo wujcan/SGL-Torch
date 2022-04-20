@@ -47,11 +47,11 @@ def find_recommender(recommender):
 if __name__ == "__main__":
     is_windows = sys.platform.startswith('win')
     if is_windows:
-        root_dir = 'D:/OneDrive - mail.ustc.edu.cn/PythonProjects/SGL-torch/'
-        data_dir = 'D:/OneDrive - mail.ustc.edu.cn/PythonProjects/SGL-torch/dataset/'
+        root_dir = 'XXXXXXXX/PythonProjects/SGL-torch/'
+        data_dir = 'XXXXXXXX/PythonProjects/SGL-torch/dataset/'
     else:
-        root_dir = '/home/wujc/PythonProjects/SGL-torch/'
-        data_dir = '/data/wujc/PythonProjects/SGL-torch/dataset/'
+        root_dir = 'XXXXXXXX/PythonProjects/SGL-torch/'
+        data_dir = 'XXXXXXXX/PythonProjects/SGL-torch/dataset/'
     config = Configurator(root_dir, data_dir)
     config.add_config(root_dir + "NeuRec.ini", section="NeuRec")
     config.parse_cmd()
